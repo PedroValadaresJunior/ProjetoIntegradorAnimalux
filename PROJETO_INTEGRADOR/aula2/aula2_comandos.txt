@@ -1,0 +1,30 @@
+Comandos Básicos Linux
+ 
+clear    # limpa a tela
+ls       # lista os arquivos do diretório atual
+git --version # Retorna a atual versão do git
+ 
+git config --global user.name "Ricardo Leme" #Adiciona globalmente (todas as pastas)o nome do usuário informado
+git config --global user.email "ricardo.leme@gmail.com" #Adiciona globalmente o email do usuário informado
+ 
+git config user.name  # Mostra o valor salvo no nome do usuário
+git config user.email # Mostra o valor salvo no email do usuário
+ 
+mkdir projeto #cria uma pasta chamada projeto
+cd projeto    #acessa uma pasta chamada projeto
+notepad arquivo.txt #cria um novo arquivo no notepad
+cat arquivo.txt #mostra o conteúdo do arquivo
+ 
+git init            # Inicializa um novo repositório 
+git status          # Para verificar o status do repositório
+git add arquivo.txt # Adiciona o arquivo no repositório
+git commit -m "mensagem" #Efetua o commit dos arquivos do repositório
+git add .  #Adiciona todos os arquivos da pasta no repositório
+git diff #Mostra as diferenças entre a pasta atual e o repositório (para sair, q)
+git diff --name-only #Mostra apenas o nome dos arquivos que estão diferentes
+git diff arquivo.txt #Mostra a diferença do arquivo informado
+ 
+pwd #Mostra o caminho completo no Sistema Operacional
+git log #Mostra o log de todos os commits do repositório
+git log --pretty=oneline #Mostra o histórico do log em uma única linha
+ 

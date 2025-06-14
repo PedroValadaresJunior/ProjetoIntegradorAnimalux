@@ -1,0 +1,3 @@
+Aula003_Exercicios
+
+Trabalhos os primeiros passos usando git e github
